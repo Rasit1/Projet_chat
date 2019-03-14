@@ -1,0 +1,27 @@
+<h2>panier</h2>
+
+<!-- <ul>
+  <a% @cart.line_items.each do |item|%>
+     <a%if(item.current_user_id == current_user.id)%>
+      <li><a%= item.product.title %> (x<a%=item.quantity%>)</li>
+    <a%end%>
+  <a%end%>
+  <a%=current_user.id%>
+</ul> -->
+
+<ul>
+  <% @cart.line_items.each do |item|%>
+    <li><%= item.product.title %> (x<%=item.quantity%>) <span class="badge badge-info">
+      <%= number_to_currency(item.total, unit: "MGA ", separator: ",", format: "%u%n")%>
+    </li>
+  <%end%>
+  <p class="font-weight-bold">Total : <span class="badge badge-info">
+    <%= number_to_currency(@cart.total, unit: "MGA ", separator: ",", format: "%u%n")%>
+  </span></p>
+</ul>
+
+<div class="row">
+  <div class="col">
+    <%= link_to 'Miverina Hividy saka', root_path, class: "btn btn-primary" %>
+  </div>
+</div>

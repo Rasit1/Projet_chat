@@ -1,0 +1,39 @@
+body {
+	background-color: #2f3542;
+}
+
+h1 {
+	text-align: center;
+	color: #4CAF50;
+
+	padding: 30px 40px;
+}
+
+
+#sary {
+	width: 250px;
+	height: 200px;
+}
+
+#descript {
+	background-color: #8BC34A;
+    margin-top: 30px;
+}
+
+.nom {
+	color: #00BCD4;
+}
+
+#mot {
+	color: #EA2027;
+	font-weight: bold;
+}
+
+.ito{
+	background-color: ;
+	margin-bottom: 200px;
+}
+
+.btn {
+	margin-top: 20px;
+}

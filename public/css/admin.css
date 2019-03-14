@@ -1,0 +1,22 @@
+body {
+	background-color: #27ae60;
+}
+
+#admin {
+	border-radius: 15px;
+
+	margin-bottom: 50px;
+}
+
+#spa {
+	color: #e67e22;
+	font-weight: bold;
+}
+
+label {
+	padding-top: 20px;
+}
+
+#btn {
+	margin-top: 40px;
+}

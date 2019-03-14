@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Vita</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+
+    <link rel="stylesheet" type="text/css" href="/bootstrap/bootstrap.min.css">
+
+
+    <script src="jquery/jquery.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/acceuil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style href=/app/assets/stylesheet/index.css></style>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  </head>
+
+
+
+  <body>
+    
+    <%= yield %>
+  </body>
+</html>

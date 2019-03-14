@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/css/new-product.css">
+</head>
+
+
+
+<body>
+
+<div class="container" >
+	<div class="row" >
+		<h1>New Produits</h1>
+	</div>
+</div>
+
+
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div id="admin" class="card card-signin my-5">
+          <div class="card-body ">
+           
+            <form action="/products" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="Sac12jW8NRSCP7uUj536XKHFWMI/DI1oh1buLAxh65IFhHyoe2R4ncLzKKJ0Jk9wZDkG8ZIcVxChIw5B/wVBfw==">
+
+              <div class="field form-label-group ">
+			    <label for="product_title">Title</label>
+			    <input class="form-control" type="text" name="product[title]" id="product_title">
+             </div>
+
+
+
+              
+              <div class="field form-label-group ">
+				    <label for="product_description">Description</label>
+				    <textarea class="form-control" name="product[description]" id="product_description"></textarea>
+             </div>
+
+             
+              <div class="field form-label-group ">
+			    <label for="product_price">Price</label>
+			    <input class="form-control" type="number" name="product[price]" id="product_price">
+              </div>
+
+  
+              <div class="field form-label-group ">
+			    <label for="product_image_url">Image url</label>
+			    <input class="form-control" type="text" name="product[image_url]" id="product_image_url">
+			  </div>
+
+
+
+			  <div class="actions form-label-group ">
+			    <input class="form-control" type="submit" name="commit" value="Create Product" data-disable-with="Create Product">
+			  </div>
+
+
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
